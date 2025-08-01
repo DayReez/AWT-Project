@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <label for="email">Email</label><br>
+    <input type="email" id="email" placeholder="you@example.com"><br>
+    <span id="email-error" style="color:red; font-size: 14px;"></span><br><br>
+    <label for="password">Password</label><br>
+    <input type="password" id="password" placeholder="Enter password"><br>
+
+  <div class="criteria">
+    <span id="uppercase" class="invalid">Uppercase letter</span>
+    <span id="lowercase" class="invalid">Lowercase letter</span>
+    <span id="number" class="invalid">Number</span>
+    <span id="special" class="invalid">Special character (e.g. !?<>@#$%)</span>
+    <span id="length" class="invalid">8 characters or more</span>
+  </div>
+  <script src="sr.js"></script>
+</body>
+</html>

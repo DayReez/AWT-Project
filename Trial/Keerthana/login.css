@@ -1,0 +1,14 @@
+body { background: #121212; color: white; font-family: Arial; padding: 20px; }
+input { padding: 10px; width: 300px; margin-bottom: 10px; }
+.criteria span {
+      display: block;
+      margin: 5px 0;
+}
+.valid::before {
+      content: "✔️ ";
+      color: lightgreen;
+}
+.invalid::before {
+      content: "❌ ";
+      color: red;
+}
